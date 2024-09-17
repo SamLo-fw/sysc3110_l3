@@ -15,11 +15,9 @@ public class AddressBook {
     }
 
     public static void main(String[] args) {
-        BuddyInfo buddy = new BuddyInfo();
+        BuddyInfo buddy = new BuddyInfo("Biden", "The White House", "+1");
         AddressBook book = new AddressBook();
         book.addBuddy(buddy);
         book.removeBuddy(buddy);
-
-        System.out.printf("this is the AddressBook.");
     }
 }
