@@ -18,6 +18,7 @@ public class AddressBook {
         BuddyInfo buddy = new BuddyInfo("Biden", "The White House", "+1");
         AddressBook book = new AddressBook();
         book.addBuddy(buddy);
+        
         book.removeBuddy(buddy);
     }
 }
