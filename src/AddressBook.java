@@ -14,6 +14,9 @@ public class AddressBook {
         this.addresses.remove(buddy);
     }
 
+    public void labThreeMethod(){
+        return;
+    }
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Biden", "The White House", "+1");
         AddressBook book = new AddressBook();
